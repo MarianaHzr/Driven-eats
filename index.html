@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">  
+ 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--SERVE PARA USAR O MEDIA QUERY CORRETAMENTE-->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />   
+
+  <title>Driven eats</title>   
+
+   </head>
+
+<body>
+  <div class="container-body">
+    <div class="logo">
+        <h1>DrivenEats</h1> 
+        <p>Sua comida em 6 minutos</p>
+    </div>
+ 
+    <div class="embranco"></div>
+
+    <div class="titulo-combo-1">Primeiro, seu prato</div>
+
+    <div class="container">
+        <div onclick="selecaoComida(this)" class="comida-1">
+          <img src="imagens/halloween-burguer.jpg" class="imagem">
+          <h1>Hallo-burguer</h1>
+          <p>Carne artesanal, cheddar e onion-ring</p>
+          <p2>R$20,90</p2><ion-icon name="checkmark-circle" class="icon"></ion-icon>
+        </div>    
+
+        <div onclick="selecaoComida(this)" class="comida-2">
+          <img src="imagens/hamburguer-artesanal-1.jpg" class="imagem">
+          <h1>X-tudão</h1>
+          <p>2 carnes, mussarela, ovo, bacon e salada</p>
+          <p2>R$25,90</p2><ion-icon name="checkmark-circle" class="icon"></ion-icon>
+        </div>  
+
+        <div onclick="selecaoComida(this)" class="comida-3">
+          <img src="imagens/chicken.jpg" class="imagem">
+          <h1>Mr. Chicken</h1>
+          <p>Steak de frango, cheddar e molho</p>
+          <p2>R$23,90</p2><ion-icon name="checkmark-circle" class="icon"></ion-icon>
+        </div>  
+    </div>
+
+
+    <div class="titulo-combo">Agora, sua bebida</div>
+
+
+    <div class="container">
+        <div onclick="selecaoBebida(this)" class="bebida-1">
+          <img src="imagens/cocacola.jpg" class="imagem">
+          <h1>Coca-cola</h1>
+          <p>Lata 350ml</p>
+          <p2>R$6,00</p2><ion-icon name="checkmark-circle" class="icon"></ion-icon>
+        </div>    
+
+        <div onclick="selecaoBebida(this)" class="bebida-2">
+          <img src="imagens/PEPSI-LATAjpeg.jpg" class="imagem">
+          <h1>Pepsi</h1>
+          <p>Lata 350ml</p><ion-icon name="checkmark-circle" class="icon"></ion-icon>
+        </div>  
+
+        <div onclick="selecaoBebida(this)" class="bebida-3">
+          <img src="imagens/fanta laranja.jpg" class="imagem">
+          <h1>Fanta Laranja</h1>
+          <p>Lata 350ml</p>
+          <p2>R$4,00</p2><ion-icon name="checkmark-circle" class="icon"></ion-icon>
+        </div>  
+    </div>
+
+
+    <div class="titulo-combo">Por fim, sua sobremesa</div>
+
+
+    <div class="container">
+        <div onclick="selecaoSobremesa(this)" class="sobremesa-1">
+            <img src="imagens/torta limão.jpg" class="imagem">
+            <h1>Torta de Limão</h1>
+            <p>Fatia de torta gelada</p>
+            <p2>R$8,00</p2><ion-icon name="checkmark-circle" class="icon"></ion-icon>
+          </div>    
+  
+          <div onclick="selecaoSobremesa(this)" class="sobremesa-2">
+            <img src="imagens/torta chocolate.jpg" class="imagem">
+            <h1>Torta de Chocolate</h1>
+            <p>Fatia de torta gelada</p>
+            <p2>R$7,00</p2><ion-icon name="checkmark-circle" class="icon"></ion-icon>
+          </div>  
+  
+          <div onclick="selecaoSobremesa(this)" class="sobremesa-3">
+            <img src="imagens/torta morango.jpg" class="imagem">
+            <h1>Torta de morango</h1>
+            <p>Fatia de torta gelada</p>
+            <p2>R$9,00</p2><ion-icon name="checkmark-circle" class="icon"></ion-icon>
+          </div>        
+    </div>   
+
+
+    <div class="bottom-bar">
+      <button>Selecione os 3 ítens para fechar o pedido</button>
+    </div>
+
+    </div>
+
+    <script src="script.js">
+
+    </script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+ </html>
+
